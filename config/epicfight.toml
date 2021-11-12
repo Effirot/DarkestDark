@@ -1,0 +1,69 @@
+
+[custom_entity]
+
+	[custom_entity.SkeletonsCreeper]
+		type_name = "desolation:blackened"
+		impact = 0.5
+		max_strikes = 1
+		armor_negation = 0.0
+		#Allowed Values: ZOMBIE, SKELETON, CREEPER, SPIDER, VINDICATOR
+		ai_type = "SKELETON"
+		texture_location = "desolation:assets/desolation/textures/blackened.png"
+
+[custom_weaponry]
+
+	[custom_weaponry.WitherClaymore]
+		armor_ignorance = 0.0
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "LONGSWORD"
+		registry_name = "mutantmore:withered_claymore"
+
+	[custom_weaponry.NagaDagger]
+		armor_ignorance = 0.0
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "DAGGER"
+		registry_name = "mowziesmobs:naga_fang_dagger"
+
+	[custom_weaponry.Endersoul_hand]
+		armor_ignorance = 0.0
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "FIST"
+		registry_name = "mutantbeasts:endersoul_hand"
+
+	[custom_weaponry.MowzieSpear]
+		armor_ignorance = 1.0
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "SPEAR"
+		registry_name = "mowziesmobs:spear"
+
+	[custom_weaponry.hulk_hammer]
+		armor_ignorance = 0.0
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "AXE"
+		registry_name = "mutantbeasts:hulk_hammer"
+
+	[custom_weaponry.skillet]
+		armor_ignorance = 1.0
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "AXE"
+		registry_name = "farmersdelight:skillet"
+
+[custom_armor]
+
+	[custom_armor.sample]
+		stun_armor = 0.0
+		weight = 0.0
+		registry_name = "modid:registryname"
+
